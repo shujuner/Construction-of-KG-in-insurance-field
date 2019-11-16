@@ -9,7 +9,7 @@ easy QA：
 Hr_KG_QA:
 ----
 	基于知识图谱的请假问答系统，回答假期相关的问题。
-	使用jena去处理sparql查询，利用SOARQKWrapper向Fuseki发送SPARQL查询，解析返回的结果。设置了问题模板，和对应的SPARQL语句，将自然语言一步步转化成 SPARQL语句，再利用jena处理查询，得出结果返回。
+	使用jena去处理sparql查询，利用SOARQKWrapper向Fuseki发送SPARQL查询，解析返回的结果。设置了问题模板，和对应的SPARQL语句，<br>将自然语言一步步转化成 SPARQL语句，再利用jena处理查询，得出结果返回。
 	不是很复杂，模板制定，匹配规则，sparql语句的解析都可以参考
 
 
