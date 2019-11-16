@@ -28,7 +28,7 @@
     类的层次关系(父子类，公共父类等)，家庭财产保险是财产保险的一种，人寿保险是人身保险的一种  
     属性的层次关系,定义域关系等
 6.	Dedupe是一个用于模糊匹配，记录去重和实体链接的python库，在知识融合领域有着重要作用。其训练时首先要定义模型需要注意的字段(特征)，包括字段名，字段类型，是否有缺省值等。  
-Dedupe把不能做出判断的样本打印出来让人工判断(即模型不确定两条数据是否重复)。下面是运行中判断的两个样本对。
+Dedupe把不能判断的样本打印出来让人工判断(即模型不确定两条数据是否重复)。下面是运行中判断的两个样本对。
 ![](https://img-blog.csdnimg.cn/20191116093134141.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2hkamlndWFuZ3hp,size_16,color_FFFFFF,t_70)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20191116093222832.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2hkamlndWFuZ3hp,size_16,color_FFFFFF,t_70)
  
