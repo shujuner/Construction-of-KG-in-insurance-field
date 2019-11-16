@@ -3,6 +3,7 @@
 easy QA：
 ----
 	一个简单的QA小系统，问题和结果都写死在代码里，运行后直接得出问题的答案。使用了简单的sparql解析，有点参考价值。
+	![结果](https://github.com/shujuner/Construction-of-KG-in-insurance-field/blob/fengfan/easy%20QA/easy_result.png)
 
 
 
