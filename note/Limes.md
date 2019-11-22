@@ -8,8 +8,8 @@ cd target java -jar limes-core-1.0.0-SNAPSHOT.jar config.xml
 ![my](https://github.com/shujuner/Construction-of-KG-in-insurance-field/blob/guangxi/note/Picture/a.png)
 ![my](https://github.com/shujuner/Construction-of-KG-in-insurance-field/blob/guangxi/note/Picture/b.png)  
 
-配置文件中，<PREFIX>字段是定义的前缀空间缩写，<SOURCE>，<TARGET>字段是定义的数据源，就是比较这两部分数据源中实体之间的相似性。  
-其中<ENDPOINT>字段是数据源的sparql终端地址，也可以是本地文件的绝对路径; <var>是用于比较的变量，而<RESTRICTION>则是对变量的一些限制条件。<METRIC>字段是距离度量函数，也可以使用一些机器学习算法来计算相似度。<ACCEPTANCE>是指接受条件，后面阈值为0.9，表示相似度大于等于0.9的可以认为是同一实体。<REVIEW>是复审条件，不满足接受条件的部分里面可能有实际上是同一实体的，将他们输出，用其他算法进行复审。这个配置文件中是使用的geo_hausdorff(x.polygon, y.polygon)距离来计算相似度  
+配置文件中，```<PREFIX>```字段是定义的前缀空间缩写，```<SOURCE>```，```<TARGET>```字段是定义的数据源，就是比较这两部分数据源中实体之间的相似性。  
+其中```<ENDPOINT>```字段是数据源的sparql终端地址，也可以是本地文件的绝对路径; ```<var>```是用于比较的变量，而```<RESTRICTION>```则是对变量的一些限制条件。```<METRIC>```字段是距离度量函数，也可以使用一些机器学习算法来计算相似度。```<ACCEPTANCE>```是指接受条件，后面阈值为0.9，表示相似度大于等于0.9的可以认为是同一实体。```<REVIEW>```是复审条件，不满足接受条件的部分里面可能有实际上是同一实体的，将他们输出，用其他算法进行复审。这个配置文件中是使用的```geo_hausdorff(x.polygon, y.polygon)```距离来计算相似度  
   
   
 运行结果如下：  
@@ -32,9 +32,10 @@ cd target java -jar limes-core-1.0.0-SNAPSHOT.jar config.xml
 最后运行结果显示，十分接近的实体对有4695对，而比较接近的为0。  
 
 5. Limes有一个专门用于生成xml配置文件的网页，如下，在该网页中，我们输入前缀缩写，文件名，限制条件等信息，它可以自动的帮我们生成对应的xml文件。省去了一步步编写xml文件的繁琐步骤。  
- ![my](https://github.com/shujuner/Construction-of-KG-in-insurance-field/blob/guangxi/note/Picture/photot3.png)<br>
+ ![my](https://github.com/shujuner/Construction-of-KG-in-insurance-field/blob/guangxi/note/Picture/photo3.png)<br>
  
- ![my](https://github.com/shujuner/Construction-of-KG-in-insurance-field/blob/guangxi/note/Picture/photot4.png)<br>
+ ![my](https://github.com/shujuner/Construction-of-KG-in-insurance-field/blob/guangxi/note/Picture/photo4.png)<br>
  
- ![my](https://github.com/shujuner/Construction-of-KG-in-insurance-field/blob/guangxi/note/Picture/photot5.png)<br>
+ ![my](https://github.com/shujuner/Construction-of-KG-in-insurance-field/blob/guangxi/note/Picture/photo5.png)<br>
  
+ ![my](https://github.com/shujuner/Construction-of-KG-in-insurance-field/blob/guangxi/note/Picture/photo6.png)<br>
