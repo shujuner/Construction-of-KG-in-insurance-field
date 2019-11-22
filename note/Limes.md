@@ -27,7 +27,7 @@ cd target java -jar limes-core-1.0.0-SNAPSHOT.jar config.xml
 4. 使用机器学习算法进行测试  
 ![my](https://github.com/shujuner/Construction-of-KG-in-insurance-field/blob/guangxi/note/Picture/photot1.png)  
 这里是使用的wombat simple算法，有监督批处理类型，使用ml_train_data.nt作为训练集来训练我们的算法，ml_train_data.nt文件内容如下:  
-![my](https://github.com/shujuner/Construction-of-KG-in-insurance-field/blob/guangxi/note/Picture/photot2.png)  
+![my](https://github.com/shujuner/Construction-of-KG-in-insurance-field/blob/guangxi/note/Picture/photo2.png)  
 这里数据也是以三元组的形式存在，其中谓词都为sameAs，表示主体与客体表示同一个实体。  
 最后运行结果显示，十分接近的实体对有4695对，而比较接近的为0。  
 
