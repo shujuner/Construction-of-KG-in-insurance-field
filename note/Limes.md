@@ -1,12 +1,16 @@
-Limes下载安装后，可以打包得到一个jar包。运行时主要是配置一个config.xml文件就可以。运行命令如下：  
+Limes的使用
+===========
+1.  Limes下载安装后，可以打包得到一个jar包。运行时主要是配置一个config.xml文件就可以。运行命令如下：  
 cd target java -jar limes-core-1.0.0-SNAPSHOT.jar config.xml  
-1 下面是一个配置文件实例  
+  
+2. 下面是一个配置文件实例  
+···
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>  
- <!DOCTYPE LIMES SYSTEM "limes.dtd">  
- <LIMES>  
- <PREFIX>  
- <NAMESPACE>http://www.w3.org/2002/07/owl#</NAMESPACE>  
- <LABEL>owl</LABEL>  
+<!DOCTYPE LIMES SYSTEM "limes.dtd">
+<LIMES> 
+<PREFIX>  
+<NAMESPACE>http://www.w3.org/2002/07/owl#</NAMESPACE>  
+<LABEL>owl</LABEL>  
  </PREFIX>  
  <PREFIX>  
  <NAMESPACE>http://geovocab.org/geometry#</NAMESPACE>  
@@ -54,6 +58,7 @@ cd target java -jar limes-core-1.0.0-SNAPSHOT.jar config.xml
  </EXECUTION>  
  <OUTPUT>TAB</OUTPUT>  
  </LIMES>  
+ ···
 配置文件中，<PREFIX>字段是定义的前缀空间缩写，<SOURCE>，<TARGET>字段是定义的数据源，就是比较这两部分数据源中实体之间的相似性。其中<ENDPOINT>字段是数据源的sparql终端地址，也可以是本地文件的绝对路径; <var>是用于比较的变量，而<RESTRICTION>则是对变量的一些限制条件。<METRIC>字段是距离度量函数，也可以使用一些机器学习算法来计算相似度。<ACCEPTANCE>是指接受条件，后面阈值为0.9，表示相似度大于等于0.9的可以认为是同一实体。<REVIEW>是复审条件，不满足接受条件的部分里面可能有实际上是同一实体的，将他们输出，用其他算法进行复审。这个配置文件中是使用的geo_hausdorff(x.polygon, y.polygon)距离来计算相似度  
 
 运行结果  
