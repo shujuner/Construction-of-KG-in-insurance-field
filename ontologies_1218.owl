@@ -1,0 +1,4561 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/kg/ontologies/untitled-ontology-5"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/kg/ontologies/untitled-ontology-5">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#一切险保险合同"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#万能保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#不定额保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#不足额保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#专属代理人"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#两全保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#个人保险代理人"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#个人保险合同"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#个人责任保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#中介佣金"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#中介合同"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#中介服务"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#中长期出口信用保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#临分"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#临时再保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#临时分保"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#临时固定再保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#主险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#买方信贷保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#事故超赔再保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#互惠交换"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#互惠再保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#互惠分保"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#互联网保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#交换分保"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#产品说明书"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#产品责任保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#产品质量保证保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#产量（产值）型农业保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#人员"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#人寿保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#人寿保险公司"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#人身保险事故"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#人身保险合同"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#人身保险合同管理"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#代位追偿"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#代位追偿原则"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#代出单"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#代理服务类别"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#代理服务项目"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#企业财产保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#保单"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#保单持有人"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#保证保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#保险专业代理机构"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#保险中介"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#保险事故"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#保险产品"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#保险人"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#保险代理人"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#保险代理服务"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#保险公估人"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#保险公估估价服务"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#保险公估合同"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#保险公估服务"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#保险公估检验服务"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#保险公司"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#保险公司代表处"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#保险公司分支机构"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#保险兼业代理机构"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#保险单"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#保险合同"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#保险合同主体"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#保险合同关系人"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#保险合同回执"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#保险合同基本条款"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#保险合同客体"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#保险合同当事人"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#保险合同条款"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#保险合同附加条款"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#保险咨询服务"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#保险市场"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#保险市场主体"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#保险市场客体"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#保险建议书"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#保险机构"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#保险机构投资者"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#保险标的价值评估服务"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#保险监管"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#保险监管体系"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#保险监管机构"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#保险类别"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#保险组织与监管"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#保险经纪人"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#保险经纪人续保服务"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#保险经纪人询价书"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#保险经纪人询价分析报告"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#保险经纪人询价单"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#保险经纪人询价服务"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#保险经纪合同"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#保险经纪服务"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#保险营销"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#保险营销员"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#保险资产管理公司"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#保险采购服务"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#保险金领取人"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#保险销售人员"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#信息披露"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#信用保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#信用保险公司"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#健康保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#健康保险公司"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#全损"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#全残"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#全部损失"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#公众责任保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#公估服务类别"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#公估服务项目"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#共同海损"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#养殖业保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#养老保险公司"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#养老年金保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#再保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#再保险人"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#再保险公司"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#再保险共保体"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#再保险分出人"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#再保险合同"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#再保险安排"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#再保险市场"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#再保险接受人"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#再保险种类"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#再保险经济合同"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#再保险经纪人"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#再保险经纪公司"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#再保险联合体（辛迪加）"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#再保险联盟"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#再保险集团"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#农业保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#农业保险事故"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#农房保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#农机保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#准备金"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#出单指示"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#出口信用保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#出口延付合同保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#分保接受人"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#分入公司"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#分出公司"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#分包条"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#分红保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#制种作物保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#医疗保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#协会货物保险条款"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#协议保单"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#协议全损"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#协议分保"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#单一危险保险合同"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#单独海损"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#卖方信贷保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#危险单位"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#原保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#原保险人"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#原保险市场"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#原保险条件再保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#受益人"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#变更申请书"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#可保风险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#合同文本"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#合同种类"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#合同管理"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#合同要素"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#合约再保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#合约分保"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#后遗伤残"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#商业信用保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#商业再保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#商业性农业保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#团体保险合同"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#园林苗圃保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#国内信用险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#国内贸易信用保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#基本险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#多种危险保险合同"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#大牲畜保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#失能收入损失保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#安装工程保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#完全永久伤残"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#完全永久性伤残"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#定期寿险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#定额保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#实际全损"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#家庭财产保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#家畜家禽保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#家禽保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#小牲畜保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#工程保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#工程履约保证保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#巨灾超赔再保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#已决赔案"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#市场和营销"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#年金保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#建筑工程保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#开口保单"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#强制再保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#强制类保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#总保单"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#总括保险合同"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#总精算师"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#总精算师声明书"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#意外伤害"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#意外伤害保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#意外残疾"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#意外烧伤"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#意外身故"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#成数再分保"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#成数分保"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#成数和溢额混合再保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#成本型农业保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#批单"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#批改申请书"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#承保"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#投保"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#投保单"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#投资连结保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#护理保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#损失终止再保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#损失证明"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#损失通知书"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#推定全损"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#收获期保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#收获期农作物保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#政策性农业保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#救助"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#救助担保人"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#暂时性伤残"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#暂时性部分伤残"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#最终接受人"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#未决赔案"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#机动车交通事故责任强制保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#机动车保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#机器损坏保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#权益转让书"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#林木保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#标准保单"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#核保"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#核保指南"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#核保指引"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#核保权限"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#核保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#核赔"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#比例再保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#比例分保"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#水产养殖保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#水果及果树保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#水路货物运输保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#永久完全残疾"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#法定分保"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#法定类保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#法律责任人"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#法律责任人声明书"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#海上货物运输保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#海事担保"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#海外投资保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#涉农保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#渔船保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#温室大棚作物保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#溢额再保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#溢额分保"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#物质损失"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#牲畜保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#特别约定"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#特制保单"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#特定危险保险合同"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#特殊风险保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#特种养殖保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#独立代理人"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#环境污染责任保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#理算人"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#理赔代理人"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#生长期农作物保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#电子保单"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#疾病"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#疾病保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#疾病全残"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#疾病身故"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#直接保险人"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#直接保险经纪人"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#直接销售"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#相互保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#相互保险公司"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#短期保险合同"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#短期出口信用保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#石油保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#确定保额"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#确实保证保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#种植业保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#粮食作物保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#索赔协助服务"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#索赔时效"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#索赔材料"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#索赔经纪人"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#累积超赔再保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#终身寿险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#经济作物保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#经纪服务类别"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#经纪服务项目"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#给付"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#给付性保险合同"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#统括保单"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#续保通知书"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#绿肥牧草作物保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#职业病"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#职业责任保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#联合保险合同"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#联运保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#自保公司"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#自愿再保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#自愿类保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#自我伤害"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#航天保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#航空保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#航空货物运输保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#船损"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#船舶保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#船舶损失"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#营业中断保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#蔬菜园艺作物保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#虚拟财产保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#补偿性保险合同"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#被保险人"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#被追偿人"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#诚实保证保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#财产保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#财产保险事故"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#财产保险公司"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#财产保险合同"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#财产保险核保"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#财产保险确定保额"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#财务在保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#责任保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#货物运输保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#贷款保证保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#赔付率超赔再保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#赔付请求"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#赔付通知书"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#赔偿"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#赔偿和给付"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#赔款计算书"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#超额保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#超额再保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#超额分保"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#超额赔款再保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#足额保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#车损"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#车辆损失"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#转分人"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#转分保"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#转分保人"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#转分保分出公司"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#转分保接受人"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#转分接受人"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#运输工具保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#连带被保险人"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#连生保险合同"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#道路交通事故社会救助基金"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#部分伤残"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#部分全损"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#部分损失"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#重置价值保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#银行保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#销售渠道"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#长效储金型农业保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#长期保险合同"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#间接销售"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#附加被保险人"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#附加险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#陆上货物运输保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#险位超赔再保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#雇主责任保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#非标准保单"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#非比例再保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#预约临分再保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#预约再保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#预约分保"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#风险保费再保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#风险保额"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#风险净额"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#风险检验人"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#风险管理顾问服务"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#飞机保险"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#首席承保人"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#事故间隔期"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#交费期间"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#人均保费"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#代收赔款账户"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#伤残保险金"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#估计最大损失"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#保单件数"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#保单保费"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#保单加费"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#保单折扣"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#保单现金价值净额"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#保单管理费"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#保单红利"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#保单终止时间"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#保单账户"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#保单起保时间"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#保证利率"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#保证收益"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#保证领取年限"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#保费不足准备金"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#保费收入"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#保险中介保费账户"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#保险供给"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#保险保障基金"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#保险合同费用"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#保险密度"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#保险深度"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#保险费约定支付日"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#保险需求"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#信用限额"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#修正准备金"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#健康加费"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#免责期"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#免赔率"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#其他加费"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#其他商业风险赔偿比例"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#内含价值"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#再保利息收入"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#再保期初存出准备金"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#再保期末存出准备金"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#再保管理费"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#再保责任恢复保费"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#再保险佣金"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#再保险准备金"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#再保险成本费率"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#再保险期限"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#再保险盈余佣金"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#再保险经纪费"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#再保险罚息"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#再保险费"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#再保险费率"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#再保险赔款"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#准备金"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#准备金评估日"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#分保佣金"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#分保手续费"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#分保未决赔款准备金"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#分保未到期责任准备金"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#分保比例"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#分保责任准备金"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#分保责任额"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#分保费"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#分保限额"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#分保额"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#初始费用"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#利润手续费"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#原保险保费收入"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#参保农户户次"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#发现期"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#受灾面积"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#可分配盈余"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#合约账单期"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#商业风险买方拒收赔偿比例"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#固定再保险费"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#固定分保手续费"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#在售产品数量"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#垫付案件数量"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#垫付赔案数量"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#垫付金追偿款"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#基本保险金额"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#复效保费"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#复效利息"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#复效期间"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#定价利率"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#实收签单保费"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#实际价值"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#实际再保险费"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#宽限期"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#已决赔付件数"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#已决赔付数量"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#已决赔款"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#已发生已报案未决赔款准备金"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#已发生未报案未决赔款准备金"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#已赚保费"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#平均余命"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#平均自留风险保额"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#年度累计免赔额"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#应付赔款"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#应收代位追偿款"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#应收保费"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#总保费"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#成灾面积"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#扑杀数量"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#批减保费"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#批增保费"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#承保数量"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#承保辆数"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#抢救垫付金额"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#报告期"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#报案件数"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#损失"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#损失程度"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#损失频率"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#接受额"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#摊回赔款"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#收益农户户次"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#新单有效保险金额"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#无责已决赔款"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#无责未决赔款"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#无赔款优待"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#暂收保费"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#最低保证利率"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#最低预付再保险费"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#最高线数"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#有效业务价值"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#有效保单件数"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#期交保费"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#期交基本保险费"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#期初自留风险保额"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#期末有效保险金额"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#期末自留风险保额"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#期间累计自留风险保额"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#未决农户户次"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#未决案件数量"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#未决赔付件数"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#未决赔付数量"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#未决赔款"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#未决赔款准备金"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#未到期责任准备金"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#未赚保费"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#标准保费"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#标的估损额"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#案均损失"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#死亡数量"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#残值"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#残疾保险金"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#每人每次事故赔偿限额"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#每案免赔额"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#每案赔偿限额"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#每次事故免赔额"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#每次事故赔偿限额"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#每次损失免赔额"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#每次损失赔偿限额"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#毛保费"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#毛净保费收入"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#浮动分保手续费"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#满期保险金"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#满期红利"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#满期赔付率"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#演示利率"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#现金价值"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#现金赔款"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#理算金额"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#理赔周期"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#理赔费用准备金"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#生存保险金"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#生存期"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#短期费率"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#立案件数"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#等待期"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#签单保费"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#签单数量"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#累计最高给付天数"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#累计赔偿限额"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#红利"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#红利累积利率"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#纯保费"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#纯益手续费"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#终了红利"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#终止交费年度"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#结算利率"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#给付期间"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#绝产面积"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#续期保费"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#综合成本率"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#综合费用率"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#职业加费"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#自动承保限额"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#自留保费"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#自留赔款"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#自留额"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#自负责任额"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#补充再保险费"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#观察期"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#评估价值"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#评估利率"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#责任限额"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#账户价值"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#费率因子"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#资产评估日"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#赔偿等待期"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#赔偿限额"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#起赔点"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#超赔合同责任限额"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#超赔底级限额"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#超赔限额"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#超赔顶级限额"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#趸交保费"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#身故保险金"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#车损责任比例"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#车损责任系数"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#转分手续费"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#返回手续费"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#追偿费用"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#追加保险费"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#追溯期"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#退保费用"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#退保金"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#递增分保手续费"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#重置价值"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#防灾费"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#附加手续费"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#附加费用"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#预付分保手续费"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#预付未决赔款"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#预付赔款"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#预定利率"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#预收保费"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#额外保费"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#额外保险费"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#风险保险费"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#首期保费"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#个人保险代理人"/>
+        <Class IRI="#保险营销员"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#临分"/>
+        <Class IRI="#临时再保险"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#临分"/>
+        <Class IRI="#临时分保"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#临时再保险"/>
+        <Class IRI="#临时分保"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#临时固定再保险"/>
+        <Class IRI="#预约临分再保险"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#临时固定再保险"/>
+        <Class IRI="#预约再保险"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#临时固定再保险"/>
+        <Class IRI="#预约分保"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#互惠交换"/>
+        <Class IRI="#互惠再保险"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#互惠交换"/>
+        <Class IRI="#互惠分保"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#互惠交换"/>
+        <Class IRI="#交换分保"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#互惠再保险"/>
+        <Class IRI="#互惠分保"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#互惠再保险"/>
+        <Class IRI="#交换分保"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#互惠分保"/>
+        <Class IRI="#交换分保"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#代理服务类别"/>
+        <Class IRI="#代理服务项目"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#保单"/>
+        <Class IRI="#保险单"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#保险经纪人询价书"/>
+        <Class IRI="#保险经纪人询价单"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#全损"/>
+        <Class IRI="#全部损失"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#公估服务类别"/>
+        <Class IRI="#公估服务项目"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#再保险人"/>
+        <Class IRI="#再保险接受人"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#再保险人"/>
+        <Class IRI="#分保接受人"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#再保险人"/>
+        <Class IRI="#分入公司"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#再保险共保体"/>
+        <Class IRI="#再保险联合体（辛迪加）"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#再保险共保体"/>
+        <Class IRI="#再保险联盟"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#再保险共保体"/>
+        <Class IRI="#再保险集团"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#再保险分出人"/>
+        <Class IRI="#分出公司"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#再保险接受人"/>
+        <Class IRI="#分保接受人"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#再保险接受人"/>
+        <Class IRI="#分入公司"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#再保险联合体（辛迪加）"/>
+        <Class IRI="#再保险联盟"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#再保险联合体（辛迪加）"/>
+        <Class IRI="#再保险集团"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#再保险联盟"/>
+        <Class IRI="#再保险集团"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#出口延付合同保险"/>
+        <Class IRI="#卖方信贷保险"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#分保接受人"/>
+        <Class IRI="#分入公司"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#协议保单"/>
+        <Class IRI="#特制保单"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#协议保单"/>
+        <Class IRI="#非标准保单"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#协议分保"/>
+        <Class IRI="#合约再保险"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#协议分保"/>
+        <Class IRI="#合约分保"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#原保险人"/>
+        <Class IRI="#直接保险人"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#变更申请书"/>
+        <Class IRI="#批改申请书"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#商业再保险"/>
+        <Class IRI="#自愿再保险"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#国内信用险"/>
+        <Class IRI="#国内贸易信用保险"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#完全永久伤残"/>
+        <Class IRI="#完全永久性伤残"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#完全永久伤残"/>
+        <Class IRI="#永久完全残疾"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#完全永久性伤残"/>
+        <Class IRI="#永久完全残疾"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#强制再保险"/>
+        <Class IRI="#法定分保"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#成数再分保"/>
+        <Class IRI="#成数分保"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#损失终止再保险"/>
+        <Class IRI="#赔付率超赔再保险"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#收获期保险"/>
+        <Class IRI="#收获期农作物保险"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#核保指南"/>
+        <Class IRI="#核保指引"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#比例再保险"/>
+        <Class IRI="#比例分保"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#溢额再保险"/>
+        <Class IRI="#溢额分保"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#特制保单"/>
+        <Class IRI="#非标准保单"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#经纪服务类别"/>
+        <Class IRI="#经纪服务项目"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#联合保险合同"/>
+        <Class IRI="#连生保险合同"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#船损"/>
+        <Class IRI="#船舶损失"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#超额再保险"/>
+        <Class IRI="#超额分保"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#超额再保险"/>
+        <Class IRI="#超额赔款再保险"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#超额分保"/>
+        <Class IRI="#超额赔款再保险"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#车损"/>
+        <Class IRI="#车辆损失"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#转分人"/>
+        <Class IRI="#转分保人"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#转分人"/>
+        <Class IRI="#转分保分出公司"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#转分保人"/>
+        <Class IRI="#转分保分出公司"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#转分保接受人"/>
+        <Class IRI="#转分接受人"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#连带被保险人"/>
+        <Class IRI="#附加被保险人"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#预约临分再保险"/>
+        <Class IRI="#预约再保险"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#预约临分再保险"/>
+        <Class IRI="#预约分保"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#预约再保险"/>
+        <Class IRI="#预约分保"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#风险保额"/>
+        <Class IRI="#风险净额"/>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#一切险保险合同"/>
+        <Class IRI="#合同种类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#万能保险"/>
+        <Class IRI="#人寿保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#不定额保险"/>
+        <Class IRI="#财产保险确定保额"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#不足额保险"/>
+        <Class IRI="#财产保险确定保额"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#专属代理人"/>
+        <Class IRI="#保险中介"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#两全保险"/>
+        <Class IRI="#人寿保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#个人保险代理人"/>
+        <Class IRI="#保险中介"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#个人保险合同"/>
+        <Class IRI="#人身保险合同"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#个人责任保险"/>
+        <Class IRI="#责任保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#中介佣金"/>
+        <Class IRI="#保险中介"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#中介合同"/>
+        <Class IRI="#保险中介"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#中介服务"/>
+        <Class IRI="#保险中介"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#中长期出口信用保险"/>
+        <Class IRI="#信用保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#临分"/>
+        <Class IRI="#再保险种类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#临时再保险"/>
+        <Class IRI="#再保险种类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#临时分保"/>
+        <Class IRI="#再保险种类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#临时固定再保险"/>
+        <Class IRI="#再保险种类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#主险"/>
+        <Class IRI="#保险类别"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#买方信贷保险"/>
+        <Class IRI="#信用保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#事故超赔再保险"/>
+        <Class IRI="#再保险种类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#互惠交换"/>
+        <Class IRI="#再保险市场"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#互惠再保险"/>
+        <Class IRI="#再保险市场"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#互惠分保"/>
+        <Class IRI="#再保险市场"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#互联网保险"/>
+        <Class IRI="#保险营销"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#交换分保"/>
+        <Class IRI="#再保险市场"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#产品说明书"/>
+        <Class IRI="#信息披露"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#产品责任保险"/>
+        <Class IRI="#责任保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#产品质量保证保险"/>
+        <Class IRI="#保证保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#产量（产值）型农业保险"/>
+        <Class IRI="#农业保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#人寿保险"/>
+        <Class IRI="#保险产品"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#人寿保险公司"/>
+        <Class IRI="#保险公司"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#人身保险事故"/>
+        <Class IRI="#保险事故"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#人身保险合同"/>
+        <Class IRI="#合同种类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#人身保险合同管理"/>
+        <Class IRI="#合同管理"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#代位追偿"/>
+        <Class IRI="#赔偿和给付"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#代位追偿原则"/>
+        <Class IRI="#代位追偿"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#代出单"/>
+        <Class IRI="#再保险种类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#代理服务类别"/>
+        <Class IRI="#保险代理服务"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#代理服务项目"/>
+        <Class IRI="#保险代理服务"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#企业财产保险"/>
+        <Class IRI="#财产保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#保单"/>
+        <Class IRI="#合同文本"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#保单持有人"/>
+        <Class IRI="#人员"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#保证保险"/>
+        <Class IRI="#保险产品"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#保险专业代理机构"/>
+        <Class IRI="#保险中介"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#保险事故"/>
+        <Class IRI="#赔偿和给付"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#保险人"/>
+        <Class IRI="#人员"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#保险代理人"/>
+        <Class IRI="#人员"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#保险代理服务"/>
+        <Class IRI="#中介服务"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#保险公估人"/>
+        <Class IRI="#人员"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#保险公估估价服务"/>
+        <Class IRI="#保险公估服务"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#保险公估合同"/>
+        <Class IRI="#中介合同"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#保险公估服务"/>
+        <Class IRI="#中介服务"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#保险公估检验服务"/>
+        <Class IRI="#保险公估服务"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#保险公司"/>
+        <Class IRI="#保险机构"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#保险公司代表处"/>
+        <Class IRI="#保险机构"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#保险公司分支机构"/>
+        <Class IRI="#保险机构"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#保险兼业代理机构"/>
+        <Class IRI="#保险中介"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#保险单"/>
+        <Class IRI="#合同文本"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#保险合同主体"/>
+        <Class IRI="#合同要素"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#保险合同关系人"/>
+        <Class IRI="#合同要素"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#保险合同回执"/>
+        <Class IRI="#合同文本"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#保险合同基本条款"/>
+        <Class IRI="#合同要素"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#保险合同客体"/>
+        <Class IRI="#合同要素"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#保险合同当事人"/>
+        <Class IRI="#合同要素"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#保险合同条款"/>
+        <Class IRI="#合同要素"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#保险合同附加条款"/>
+        <Class IRI="#合同要素"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#保险咨询服务"/>
+        <Class IRI="#保险经纪服务"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#保险市场"/>
+        <Class IRI="#市场和营销"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#保险市场主体"/>
+        <Class IRI="#保险市场"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#保险市场客体"/>
+        <Class IRI="#保险市场"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#保险建议书"/>
+        <Class IRI="#投保"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#保险机构"/>
+        <Class IRI="#保险组织与监管"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#保险机构投资者"/>
+        <Class IRI="#保险机构"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#保险标的价值评估服务"/>
+        <Class IRI="#保险经纪服务"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#保险监管"/>
+        <Class IRI="#保险组织与监管"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#保险监管体系"/>
+        <Class IRI="#保险监管"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#保险监管机构"/>
+        <Class IRI="#保险监管"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#保险经纪人"/>
+        <Class IRI="#人员"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#保险经纪人续保服务"/>
+        <Class IRI="#保险经纪服务"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#保险经纪人询价书"/>
+        <Class IRI="#保险经纪服务"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#保险经纪人询价分析报告"/>
+        <Class IRI="#保险经纪服务"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#保险经纪人询价单"/>
+        <Class IRI="#保险经纪服务"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#保险经纪人询价服务"/>
+        <Class IRI="#保险经纪服务"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#保险经纪合同"/>
+        <Class IRI="#中介合同"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#保险经纪服务"/>
+        <Class IRI="#中介服务"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#保险营销"/>
+        <Class IRI="#市场和营销"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#保险营销员"/>
+        <Class IRI="#保险中介"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#保险资产管理公司"/>
+        <Class IRI="#保险机构"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#保险采购服务"/>
+        <Class IRI="#保险经纪服务"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#保险金领取人"/>
+        <Class IRI="#赔偿和给付"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#保险销售人员"/>
+        <Class IRI="#人员"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#信息披露"/>
+        <Class IRI="#保险组织与监管"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#信用保险"/>
+        <Class IRI="#保险产品"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#信用保险公司"/>
+        <Class IRI="#保险公司"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#健康保险"/>
+        <Class IRI="#保险产品"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#健康保险公司"/>
+        <Class IRI="#保险公司"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#全损"/>
+        <Class IRI="#财产保险事故"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#全残"/>
+        <Class IRI="#人身保险事故"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#全部损失"/>
+        <Class IRI="#财产保险事故"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#公众责任保险"/>
+        <Class IRI="#责任保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#公估服务类别"/>
+        <Class IRI="#保险公估服务"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#公估服务项目"/>
+        <Class IRI="#保险公估服务"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#共同海损"/>
+        <Class IRI="#财产保险事故"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#养殖业保险"/>
+        <Class IRI="#农业保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#养老保险公司"/>
+        <Class IRI="#保险公司"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#养老年金保险"/>
+        <Class IRI="#年金保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#再保险人"/>
+        <Class IRI="#再保险市场"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#再保险公司"/>
+        <Class IRI="#保险机构"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#再保险共保体"/>
+        <Class IRI="#再保险市场"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#再保险分出人"/>
+        <Class IRI="#再保险市场"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#再保险合同"/>
+        <Class IRI="#再保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#再保险合同"/>
+        <Class IRI="#再保险安排"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#再保险安排"/>
+        <Class IRI="#再保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#再保险市场"/>
+        <Class IRI="#再保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#再保险接受人"/>
+        <Class IRI="#再保险市场"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#再保险种类"/>
+        <Class IRI="#再保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#再保险经济合同"/>
+        <Class IRI="#中介合同"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#再保险经纪人"/>
+        <Class IRI="#人员"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#再保险经纪人"/>
+        <Class IRI="#再保险市场"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#再保险经纪公司"/>
+        <Class IRI="#再保险市场"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#再保险联合体（辛迪加）"/>
+        <Class IRI="#再保险市场"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#再保险联盟"/>
+        <Class IRI="#再保险市场"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#再保险集团"/>
+        <Class IRI="#再保险市场"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#农业保险"/>
+        <Class IRI="#保险产品"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#农业保险事故"/>
+        <Class IRI="#保险事故"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#农房保险"/>
+        <Class IRI="#农业保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#农机保险"/>
+        <Class IRI="#农业保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#出单指示"/>
+        <Class IRI="#保险经纪服务"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#出口信用保险"/>
+        <Class IRI="#信用保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#出口延付合同保险"/>
+        <Class IRI="#信用保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#分保接受人"/>
+        <Class IRI="#再保险市场"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#分入公司"/>
+        <Class IRI="#再保险市场"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#分出公司"/>
+        <Class IRI="#再保险市场"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#分包条"/>
+        <Class IRI="#再保险安排"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#分红保险"/>
+        <Class IRI="#人寿保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#制种作物保险"/>
+        <Class IRI="#农业保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#医疗保险"/>
+        <Class IRI="#健康保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#协会货物保险条款"/>
+        <Class IRI="#合同要素"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#协议保单"/>
+        <Class IRI="#合同文本"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#协议全损"/>
+        <Class IRI="#财产保险事故"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#协议分保"/>
+        <Class IRI="#再保险种类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#单一危险保险合同"/>
+        <Class IRI="#合同种类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#单独海损"/>
+        <Class IRI="#财产保险事故"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#卖方信贷保险"/>
+        <Class IRI="#信用保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#危险单位"/>
+        <Class IRI="#财产保险核保"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#原保险"/>
+        <Class IRI="#再保险市场"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#原保险人"/>
+        <Class IRI="#再保险市场"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#原保险市场"/>
+        <Class IRI="#再保险市场"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#原保险条件再保险"/>
+        <Class IRI="#再保险种类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#受益人"/>
+        <Class IRI="#人员"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#变更申请书"/>
+        <Class IRI="#合同管理"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#可保风险"/>
+        <Class IRI="#核保"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#合同文本"/>
+        <Class IRI="#保险合同"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#合同种类"/>
+        <Class IRI="#保险合同"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#合同管理"/>
+        <Class IRI="#保险合同"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#合同要素"/>
+        <Class IRI="#保险合同"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#合约再保险"/>
+        <Class IRI="#再保险种类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#合约分保"/>
+        <Class IRI="#再保险种类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#后遗伤残"/>
+        <Class IRI="#人身保险事故"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#商业信用保险"/>
+        <Class IRI="#信用保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#商业再保险"/>
+        <Class IRI="#再保险种类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#商业性农业保险"/>
+        <Class IRI="#农业保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#团体保险合同"/>
+        <Class IRI="#人身保险合同"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#园林苗圃保险"/>
+        <Class IRI="#农业保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#国内信用险"/>
+        <Class IRI="#信用保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#国内贸易信用保险"/>
+        <Class IRI="#信用保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#基本险"/>
+        <Class IRI="#保险类别"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#多种危险保险合同"/>
+        <Class IRI="#合同种类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#大牲畜保险"/>
+        <Class IRI="#农业保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#失能收入损失保险"/>
+        <Class IRI="#健康保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#安装工程保险"/>
+        <Class IRI="#工程保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#完全永久伤残"/>
+        <Class IRI="#人身保险事故"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#完全永久性伤残"/>
+        <Class IRI="#人身保险事故"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#定期寿险"/>
+        <Class IRI="#人寿保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#定额保险"/>
+        <Class IRI="#财产保险确定保额"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#实际全损"/>
+        <Class IRI="#财产保险事故"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#家庭财产保险"/>
+        <Class IRI="#财产保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#家畜家禽保险"/>
+        <Class IRI="#农业保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#家禽保险"/>
+        <Class IRI="#农业保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#小牲畜保险"/>
+        <Class IRI="#农业保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#工程保险"/>
+        <Class IRI="#保险产品"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#工程履约保证保险"/>
+        <Class IRI="#保证保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#巨灾超赔再保险"/>
+        <Class IRI="#再保险种类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#已决赔案"/>
+        <Class IRI="#信息披露"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#年金保险"/>
+        <Class IRI="#保险产品"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#建筑工程保险"/>
+        <Class IRI="#工程保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#开口保单"/>
+        <Class IRI="#财产保险合同"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#强制再保险"/>
+        <Class IRI="#再保险种类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#强制类保险"/>
+        <Class IRI="#保险类别"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#总保单"/>
+        <Class IRI="#人身保险合同"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#总括保险合同"/>
+        <Class IRI="#合同种类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#总精算师"/>
+        <Class IRI="#信息披露"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#总精算师声明书"/>
+        <Class IRI="#信息披露"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#意外伤害"/>
+        <Class IRI="#人身保险事故"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#意外伤害保险"/>
+        <Class IRI="#保险产品"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#意外残疾"/>
+        <Class IRI="#人身保险事故"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#意外烧伤"/>
+        <Class IRI="#人身保险事故"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#意外身故"/>
+        <Class IRI="#人身保险事故"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#成数再分保"/>
+        <Class IRI="#再保险种类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#成数分保"/>
+        <Class IRI="#再保险种类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#成数和溢额混合再保险"/>
+        <Class IRI="#再保险种类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#成本型农业保险"/>
+        <Class IRI="#农业保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#批单"/>
+        <Class IRI="#合同文本"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#批改申请书"/>
+        <Class IRI="#合同管理"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#投保单"/>
+        <Class IRI="#投保"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#投资连结保险"/>
+        <Class IRI="#人寿保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#护理保险"/>
+        <Class IRI="#健康保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#损失终止再保险"/>
+        <Class IRI="#再保险种类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#损失证明"/>
+        <Class IRI="#赔付请求"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#损失通知书"/>
+        <Class IRI="#赔付请求"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#推定全损"/>
+        <Class IRI="#财产保险事故"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#收获期保险"/>
+        <Class IRI="#农业保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#收获期农作物保险"/>
+        <Class IRI="#农业保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#政策性农业保险"/>
+        <Class IRI="#农业保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#救助"/>
+        <Class IRI="#赔偿和给付"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#救助担保人"/>
+        <Class IRI="#救助"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#暂时性伤残"/>
+        <Class IRI="#人身保险事故"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#暂时性部分伤残"/>
+        <Class IRI="#人身保险事故"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#最终接受人"/>
+        <Class IRI="#再保险安排"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#未决赔案"/>
+        <Class IRI="#信息披露"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#机动车交通事故责任强制保险"/>
+        <Class IRI="#责任保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#机动车保险"/>
+        <Class IRI="#运输工具保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#机器损坏保险"/>
+        <Class IRI="#财产保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#权益转让书"/>
+        <Class IRI="#代位追偿"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#林木保险"/>
+        <Class IRI="#农业保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#标准保单"/>
+        <Class IRI="#合同文本"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#核保指南"/>
+        <Class IRI="#核保"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#核保指引"/>
+        <Class IRI="#核保"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#核保权限"/>
+        <Class IRI="#核保"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#核保险"/>
+        <Class IRI="#特殊风险保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#核赔"/>
+        <Class IRI="#赔偿和给付"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#比例再保险"/>
+        <Class IRI="#再保险种类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#比例分保"/>
+        <Class IRI="#再保险种类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#水产养殖保险"/>
+        <Class IRI="#农业保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#水果及果树保险"/>
+        <Class IRI="#农业保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#水路货物运输保险"/>
+        <Class IRI="#货物运输保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#永久完全残疾"/>
+        <Class IRI="#人身保险事故"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#法定分保"/>
+        <Class IRI="#再保险种类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#法定类保险"/>
+        <Class IRI="#保险类别"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#法律责任人"/>
+        <Class IRI="#信息披露"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#法律责任人声明书"/>
+        <Class IRI="#信息披露"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#海上货物运输保险"/>
+        <Class IRI="#货物运输保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#海事担保"/>
+        <Class IRI="#救助"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#海外投资保险"/>
+        <Class IRI="#信用保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#涉农保险"/>
+        <Class IRI="#农业保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#渔船保险"/>
+        <Class IRI="#农业保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#温室大棚作物保险"/>
+        <Class IRI="#农业保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#溢额再保险"/>
+        <Class IRI="#再保险种类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#溢额分保"/>
+        <Class IRI="#再保险种类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#物质损失"/>
+        <Class IRI="#财产保险事故"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#牲畜保险"/>
+        <Class IRI="#农业保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#特别约定"/>
+        <Class IRI="#合同要素"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#特制保单"/>
+        <Class IRI="#合同文本"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#特定危险保险合同"/>
+        <Class IRI="#合同种类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#特殊风险保险"/>
+        <Class IRI="#保险产品"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#特种养殖保险"/>
+        <Class IRI="#农业保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#独立代理人"/>
+        <Class IRI="#保险中介"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#环境污染责任保险"/>
+        <Class IRI="#责任保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#理算人"/>
+        <Class IRI="#核赔"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#理赔代理人"/>
+        <Class IRI="#保险中介"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#生长期农作物保险"/>
+        <Class IRI="#农业保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#电子保单"/>
+        <Class IRI="#合同文本"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#疾病"/>
+        <Class IRI="#人身保险事故"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#疾病保险"/>
+        <Class IRI="#健康保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#疾病全残"/>
+        <Class IRI="#人身保险事故"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#疾病身故"/>
+        <Class IRI="#人身保险事故"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#直接保险人"/>
+        <Class IRI="#再保险市场"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#直接保险经纪人"/>
+        <Class IRI="#人员"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#直接销售"/>
+        <Class IRI="#保险营销"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#相互保险"/>
+        <Class IRI="#保险类别"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#相互保险公司"/>
+        <Class IRI="#保险机构"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#短期保险合同"/>
+        <Class IRI="#合同种类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#短期出口信用保险"/>
+        <Class IRI="#信用保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#石油保险"/>
+        <Class IRI="#特殊风险保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#确实保证保险"/>
+        <Class IRI="#保证保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#种植业保险"/>
+        <Class IRI="#农业保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#粮食作物保险"/>
+        <Class IRI="#农业保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#索赔协助服务"/>
+        <Class IRI="#保险经纪服务"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#索赔时效"/>
+        <Class IRI="#赔付请求"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#索赔材料"/>
+        <Class IRI="#赔付请求"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#索赔经纪人"/>
+        <Class IRI="#保险中介"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#累积超赔再保险"/>
+        <Class IRI="#再保险种类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#终身寿险"/>
+        <Class IRI="#人寿保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#经济作物保险"/>
+        <Class IRI="#农业保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#经纪服务类别"/>
+        <Class IRI="#保险经纪服务"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#经纪服务项目"/>
+        <Class IRI="#保险经纪服务"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#给付"/>
+        <Class IRI="#赔偿和给付"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#给付性保险合同"/>
+        <Class IRI="#人身保险合同"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#统括保单"/>
+        <Class IRI="#财产保险合同"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#续保通知书"/>
+        <Class IRI="#保险合同"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#绿肥牧草作物保险"/>
+        <Class IRI="#农业保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#职业病"/>
+        <Class IRI="#人身保险事故"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#职业责任保险"/>
+        <Class IRI="#责任保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#联合保险合同"/>
+        <Class IRI="#人身保险合同"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#联运保险"/>
+        <Class IRI="#货物运输保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#自保公司"/>
+        <Class IRI="#保险机构"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#自愿再保险"/>
+        <Class IRI="#再保险种类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#自愿类保险"/>
+        <Class IRI="#保险类别"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#自我伤害"/>
+        <Class IRI="#人身保险事故"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#航天保险"/>
+        <Class IRI="#特殊风险保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#航空保险"/>
+        <Class IRI="#运输工具保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#航空货物运输保险"/>
+        <Class IRI="#货物运输保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#船损"/>
+        <Class IRI="#财产保险事故"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#船舶保险"/>
+        <Class IRI="#运输工具保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#船舶损失"/>
+        <Class IRI="#财产保险事故"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#营业中断保险"/>
+        <Class IRI="#财产保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#蔬菜园艺作物保险"/>
+        <Class IRI="#农业保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#虚拟财产保险"/>
+        <Class IRI="#财产保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#补偿性保险合同"/>
+        <Class IRI="#财产保险合同"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#被保险人"/>
+        <Class IRI="#人员"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#被追偿人"/>
+        <Class IRI="#代位追偿"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#诚实保证保险"/>
+        <Class IRI="#保证保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#财产保险"/>
+        <Class IRI="#保险产品"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#财产保险事故"/>
+        <Class IRI="#保险事故"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#财产保险公司"/>
+        <Class IRI="#保险公司"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#财产保险合同"/>
+        <Class IRI="#合同种类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#财产保险核保"/>
+        <Class IRI="#核保"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#财产保险确定保额"/>
+        <Class IRI="#确定保额"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#财务在保险"/>
+        <Class IRI="#再保险种类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#责任保险"/>
+        <Class IRI="#保险产品"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#货物运输保险"/>
+        <Class IRI="#保险产品"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#贷款保证保险"/>
+        <Class IRI="#保证保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#赔付率超赔再保险"/>
+        <Class IRI="#再保险种类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#赔付请求"/>
+        <Class IRI="#赔偿和给付"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#赔付通知书"/>
+        <Class IRI="#赔偿和给付"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#赔偿"/>
+        <Class IRI="#赔偿和给付"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#赔款计算书"/>
+        <Class IRI="#赔偿"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#超额保险"/>
+        <Class IRI="#财产保险确定保额"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#超额再保险"/>
+        <Class IRI="#再保险种类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#超额分保"/>
+        <Class IRI="#再保险种类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#超额赔款再保险"/>
+        <Class IRI="#再保险种类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#足额保险"/>
+        <Class IRI="#财产保险确定保额"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#车损"/>
+        <Class IRI="#财产保险事故"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#车辆损失"/>
+        <Class IRI="#财产保险事故"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#转分人"/>
+        <Class IRI="#再保险市场"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#转分保"/>
+        <Class IRI="#再保险市场"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#转分保人"/>
+        <Class IRI="#再保险市场"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#转分保分出公司"/>
+        <Class IRI="#再保险市场"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#转分保接受人"/>
+        <Class IRI="#再保险市场"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#转分接受人"/>
+        <Class IRI="#再保险市场"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#运输工具保险"/>
+        <Class IRI="#保险产品"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#运输工具保险"/>
+        <Class IRI="#运输工具保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#连带被保险人"/>
+        <Class IRI="#投保"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#连生保险合同"/>
+        <Class IRI="#人身保险合同"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#道路交通事故社会救助基金"/>
+        <Class IRI="#救助"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#部分伤残"/>
+        <Class IRI="#人身保险事故"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#部分全损"/>
+        <Class IRI="#财产保险事故"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#部分损失"/>
+        <Class IRI="#财产保险事故"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#重置价值保险"/>
+        <Class IRI="#财产保险确定保额"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#银行保险"/>
+        <Class IRI="#保险营销"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#销售渠道"/>
+        <Class IRI="#保险营销"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#长效储金型农业保险"/>
+        <Class IRI="#农业保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#长期保险合同"/>
+        <Class IRI="#合同种类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#间接销售"/>
+        <Class IRI="#保险营销"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#附加被保险人"/>
+        <Class IRI="#投保"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#附加险"/>
+        <Class IRI="#保险类别"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#陆上货物运输保险"/>
+        <Class IRI="#货物运输保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#险位超赔再保险"/>
+        <Class IRI="#再保险种类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#雇主责任保险"/>
+        <Class IRI="#责任保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#非标准保单"/>
+        <Class IRI="#合同文本"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#非比例再保险"/>
+        <Class IRI="#再保险种类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#预约临分再保险"/>
+        <Class IRI="#再保险种类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#预约再保险"/>
+        <Class IRI="#再保险种类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#预约分保"/>
+        <Class IRI="#再保险种类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#风险保费再保险"/>
+        <Class IRI="#再保险种类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#风险保额"/>
+        <Class IRI="#再保险种类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#风险净额"/>
+        <Class IRI="#再保险种类"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#风险检验人"/>
+        <Class IRI="#保险中介"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#风险管理顾问服务"/>
+        <Class IRI="#保险经纪服务"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#飞机保险"/>
+        <Class IRI="#运输工具保险"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#首席承保人"/>
+        <Class IRI="#再保险市场"/>
+    </SubClassOf>
+    <EquivalentDataProperties>
+        <DataProperty IRI="#人均保费"/>
+        <DataProperty IRI="#保险密度"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="#伤残保险金"/>
+        <DataProperty IRI="#残疾保险金"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="#保单加费"/>
+        <DataProperty IRI="#额外保险费"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="#保单红利"/>
+        <DataProperty IRI="#红利"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="#保证利率"/>
+        <DataProperty IRI="#最低保证利率"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="#免责期"/>
+        <DataProperty IRI="#等待期"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="#免责期"/>
+        <DataProperty IRI="#观察期"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="#再保责任恢复保费"/>
+        <DataProperty IRI="#补充再保险费"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="#再保险佣金"/>
+        <DataProperty IRI="#分保佣金"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="#再保险佣金"/>
+        <DataProperty IRI="#分保手续费"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="#再保险盈余佣金"/>
+        <DataProperty IRI="#利润手续费"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="#再保险盈余佣金"/>
+        <DataProperty IRI="#纯益手续费"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="#再保险费"/>
+        <DataProperty IRI="#分保费"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="#再保险赔款"/>
+        <DataProperty IRI="#摊回赔款"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="#分保佣金"/>
+        <DataProperty IRI="#分保手续费"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="#分保未到期责任准备金"/>
+        <DataProperty IRI="#分保责任准备金"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="#分保责任额"/>
+        <DataProperty IRI="#分保限额"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="#分保责任额"/>
+        <DataProperty IRI="#分保额"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="#分保责任额"/>
+        <DataProperty IRI="#接受额"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="#分保限额"/>
+        <DataProperty IRI="#分保额"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="#分保限额"/>
+        <DataProperty IRI="#接受额"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="#分保额"/>
+        <DataProperty IRI="#接受额"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="#利润手续费"/>
+        <DataProperty IRI="#纯益手续费"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="#发现期"/>
+        <DataProperty IRI="#报告期"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="#垫付案件数量"/>
+        <DataProperty IRI="#垫付赔案数量"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="#定价利率"/>
+        <DataProperty IRI="#预定利率"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="#暂收保费"/>
+        <DataProperty IRI="#预收保费"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="#未决案件数量"/>
+        <DataProperty IRI="#未决赔付件数"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="#浮动分保手续费"/>
+        <DataProperty IRI="#递增分保手续费"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="#满期红利"/>
+        <DataProperty IRI="#终了红利"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="#等待期"/>
+        <DataProperty IRI="#观察期"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="#自留额"/>
+        <DataProperty IRI="#自负责任额"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="#超赔合同责任限额"/>
+        <DataProperty IRI="#超赔限额"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="#车损责任比例"/>
+        <DataProperty IRI="#车损责任系数"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="#转分手续费"/>
+        <DataProperty IRI="#附加手续费"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="#追加保险费"/>
+        <DataProperty IRI="#额外保费"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="#预付未决赔款"/>
+        <DataProperty IRI="#预付赔款"/>
+    </EquivalentDataProperties>
+    <DataPropertyDomain>
+        <DataProperty IRI="#事故间隔期"/>
+        <Class IRI="#核赔"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#人均保费"/>
+        <Class IRI="#保险市场"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#代收赔款账户"/>
+        <Class IRI="#保险经纪服务"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#伤残保险金"/>
+        <Class IRI="#给付"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#估计最大损失"/>
+        <Class IRI="#再保险安排"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#保单件数"/>
+        <Class IRI="#信息披露"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#保单保费"/>
+        <Class IRI="#信息披露"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#保单现金价值净额"/>
+        <Class IRI="#人身保险合同管理"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#保单管理费"/>
+        <Class IRI="#人身保险合同管理"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#保单红利"/>
+        <Class IRI="#人身保险合同管理"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#保单终止时间"/>
+        <Class IRI="#合同管理"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#保单账户"/>
+        <Class IRI="#人身保险合同管理"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#保单起保时间"/>
+        <Class IRI="#合同管理"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#保证利率"/>
+        <Class IRI="#人身保险合同管理"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#保证收益"/>
+        <Class IRI="#人身保险合同管理"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#保证领取年限"/>
+        <Class IRI="#给付"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#保费不足准备金"/>
+        <Class IRI="#准备金"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#保费收入"/>
+        <Class IRI="#信息披露"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#保险中介保费账户"/>
+        <Class IRI="#中介服务"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#保险供给"/>
+        <Class IRI="#保险市场"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#保险保障基金"/>
+        <Class IRI="#信息披露"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#保险合同费用"/>
+        <Class IRI="#人身保险合同管理"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#保险密度"/>
+        <Class IRI="#保险市场"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#保险深度"/>
+        <Class IRI="#保险市场"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#保险需求"/>
+        <Class IRI="#保险市场"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#信用限额"/>
+        <Class IRI="#确定保额"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#修正准备金"/>
+        <Class IRI="#准备金"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#免责期"/>
+        <Class IRI="#确定保额"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#免赔率"/>
+        <Class IRI="#确定保额"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#其他商业风险赔偿比例"/>
+        <Class IRI="#确定保额"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#其他商业风险赔偿比例"/>
+        <Class IRI="#财产保险"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#内含价值"/>
+        <Class IRI="#信息披露"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#再保利息收入"/>
+        <Class IRI="#再保险合同"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#再保期初存出准备金"/>
+        <Class IRI="#再保险合同"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#再保期末存出准备金"/>
+        <Class IRI="#再保险合同"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#再保管理费"/>
+        <Class IRI="#再保险合同"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#再保责任恢复保费"/>
+        <Class IRI="#再保险安排"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#再保险佣金"/>
+        <Class IRI="#再保险安排"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#再保险准备金"/>
+        <Class IRI="#再保险合同"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#再保险成本费率"/>
+        <Class IRI="#再保险合同"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#再保险期限"/>
+        <Class IRI="#再保险安排"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#再保险盈余佣金"/>
+        <Class IRI="#再保险合同"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#再保险经纪费"/>
+        <Class IRI="#再保险安排"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#再保险罚息"/>
+        <Class IRI="#再保险合同"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#再保险费"/>
+        <Class IRI="#再保险安排"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#再保险费率"/>
+        <Class IRI="#再保险安排"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#再保险赔款"/>
+        <Class IRI="#再保险合同"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#准备金"/>
+        <Class IRI="#准备金"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#准备金评估日"/>
+        <Class IRI="#准备金"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#分保佣金"/>
+        <Class IRI="#再保险安排"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#分保手续费"/>
+        <Class IRI="#再保险安排"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#分保未决赔款准备金"/>
+        <Class IRI="#再保险合同"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#分保未到期责任准备金"/>
+        <Class IRI="#再保险合同"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#分保比例"/>
+        <Class IRI="#再保险安排"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#分保责任准备金"/>
+        <Class IRI="#再保险合同"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#分保责任额"/>
+        <Class IRI="#再保险安排"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#分保费"/>
+        <Class IRI="#再保险安排"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#分保限额"/>
+        <Class IRI="#再保险安排"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#分保额"/>
+        <Class IRI="#再保险安排"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#初始费用"/>
+        <Class IRI="#人身保险合同管理"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#利润手续费"/>
+        <Class IRI="#再保险合同"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#原保险保费收入"/>
+        <Class IRI="#信息披露"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#参保农户户次"/>
+        <Class IRI="#信息披露"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#受灾面积"/>
+        <Class IRI="#农业保险事故"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#可分配盈余"/>
+        <Class IRI="#人身保险合同管理"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#合约账单期"/>
+        <Class IRI="#再保险合同"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#商业风险买方拒收赔偿比例"/>
+        <Class IRI="#确定保额"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#商业风险买方拒收赔偿比例"/>
+        <Class IRI="#财产保险"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#固定再保险费"/>
+        <Class IRI="#再保险安排"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#固定分保手续费"/>
+        <Class IRI="#再保险安排"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#在售产品数量"/>
+        <Class IRI="#信息披露"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#垫付案件数量"/>
+        <Class IRI="#信息披露"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#垫付赔案数量"/>
+        <Class IRI="#信息披露"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#垫付金追偿款"/>
+        <Class IRI="#代位追偿"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#基本保险金额"/>
+        <Class IRI="#确定保额"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#复效保费"/>
+        <Class IRI="#合同管理"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#复效利息"/>
+        <Class IRI="#人身保险合同管理"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#复效期间"/>
+        <Class IRI="#人身保险合同管理"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#实收签单保费"/>
+        <Class IRI="#信息披露"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#实际价值"/>
+        <Class IRI="#核赔"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#实际再保险费"/>
+        <Class IRI="#再保险合同"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#已决赔付件数"/>
+        <Class IRI="#信息披露"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#已决赔付数量"/>
+        <Class IRI="#信息披露"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#已决赔款"/>
+        <Class IRI="#信息披露"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#已发生已报案未决赔款准备金"/>
+        <Class IRI="#准备金"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#已发生未报案未决赔款准备金"/>
+        <Class IRI="#准备金"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#平均自留风险保额"/>
+        <Class IRI="#再保险合同"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#年度累计免赔额"/>
+        <Class IRI="#再保险安排"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#应付赔款"/>
+        <Class IRI="#赔偿"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#应收代位追偿款"/>
+        <Class IRI="#代位追偿"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#成灾面积"/>
+        <Class IRI="#农业保险事故"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#扑杀数量"/>
+        <Class IRI="#农业保险事故"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#批减保费"/>
+        <Class IRI="#信息披露"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#批增保费"/>
+        <Class IRI="#信息披露"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#承保数量"/>
+        <Class IRI="#信息披露"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#承保辆数"/>
+        <Class IRI="#信息披露"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#抢救垫付金额"/>
+        <Class IRI="#救助"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#报案件数"/>
+        <Class IRI="#信息披露"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#损失"/>
+        <Class IRI="#财产保险"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#损失程度"/>
+        <Class IRI="#财产保险"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#损失频率"/>
+        <Class IRI="#财产保险"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#接受额"/>
+        <Class IRI="#再保险安排"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#摊回赔款"/>
+        <Class IRI="#再保险合同"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#收益农户户次"/>
+        <Class IRI="#信息披露"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#新单有效保险金额"/>
+        <Class IRI="#信息披露"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#无责已决赔款"/>
+        <Class IRI="#信息披露"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#无责未决赔款"/>
+        <Class IRI="#信息披露"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#最低保证利率"/>
+        <Class IRI="#人身保险合同管理"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#最低预付再保险费"/>
+        <Class IRI="#再保险合同"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#最高线数"/>
+        <Class IRI="#再保险安排"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#有效业务价值"/>
+        <Class IRI="#信息披露"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#有效保单件数"/>
+        <Class IRI="#信息披露"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#期初自留风险保额"/>
+        <Class IRI="#再保险合同"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#期末有效保险金额"/>
+        <Class IRI="#信息披露"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#期末自留风险保额"/>
+        <Class IRI="#再保险合同"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#期间累计自留风险保额"/>
+        <Class IRI="#再保险合同"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#未决农户户次"/>
+        <Class IRI="#信息披露"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#未决案件数量"/>
+        <Class IRI="#信息披露"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#未决赔付件数"/>
+        <Class IRI="#信息披露"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#未决赔付数量"/>
+        <Class IRI="#信息披露"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#未决赔款"/>
+        <Class IRI="#信息披露"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#未决赔款准备金"/>
+        <Class IRI="#准备金"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#未到期责任准备金"/>
+        <Class IRI="#准备金"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#标准保费"/>
+        <Class IRI="#信息披露"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#标的估损额"/>
+        <Class IRI="#财产保险事故"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#案均损失"/>
+        <Class IRI="#财产保险"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#死亡数量"/>
+        <Class IRI="#农业保险事故"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#残值"/>
+        <Class IRI="#代位追偿"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#残疾保险金"/>
+        <Class IRI="#给付"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#每人每次事故赔偿限额"/>
+        <Class IRI="#确定保额"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#每案免赔额"/>
+        <Class IRI="#确定保额"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#每案赔偿限额"/>
+        <Class IRI="#确定保额"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#每次事故免赔额"/>
+        <Class IRI="#确定保额"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#每次事故赔偿限额"/>
+        <Class IRI="#确定保额"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#每次损失免赔额"/>
+        <Class IRI="#确定保额"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#每次损失赔偿限额"/>
+        <Class IRI="#确定保额"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#毛净保费收入"/>
+        <Class IRI="#再保险合同"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#浮动分保手续费"/>
+        <Class IRI="#再保险安排"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#满期保险金"/>
+        <Class IRI="#给付"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#满期红利"/>
+        <Class IRI="#人身保险合同管理"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#满期赔付率"/>
+        <Class IRI="#信息披露"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#现金价值"/>
+        <Class IRI="#合同管理"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#现金赔款"/>
+        <Class IRI="#再保险合同"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#理算金额"/>
+        <Class IRI="#核赔"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#理赔周期"/>
+        <Class IRI="#赔偿和给付"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#理赔费用准备金"/>
+        <Class IRI="#准备金"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#生存保险金"/>
+        <Class IRI="#给付"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#生存期"/>
+        <Class IRI="#确定保额"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#短期费率"/>
+        <Class IRI="#合同管理"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#立案件数"/>
+        <Class IRI="#信息披露"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#等待期"/>
+        <Class IRI="#确定保额"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#签单保费"/>
+        <Class IRI="#信息披露"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#签单数量"/>
+        <Class IRI="#信息披露"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#累计最高给付天数"/>
+        <Class IRI="#确定保额"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#累计赔偿限额"/>
+        <Class IRI="#确定保额"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#红利"/>
+        <Class IRI="#人身保险合同管理"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#红利累积利率"/>
+        <Class IRI="#人身保险合同管理"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#纯益手续费"/>
+        <Class IRI="#再保险合同"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#终了红利"/>
+        <Class IRI="#人身保险合同管理"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#结算利率"/>
+        <Class IRI="#人身保险合同管理"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#给付期间"/>
+        <Class IRI="#给付"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#绝产面积"/>
+        <Class IRI="#农业保险事故"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#综合成本率"/>
+        <Class IRI="#信息披露"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#综合费用率"/>
+        <Class IRI="#信息披露"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#自动承保限额"/>
+        <Class IRI="#再保险安排"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#自留保费"/>
+        <Class IRI="#再保险安排"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#自留赔款"/>
+        <Class IRI="#再保险安排"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#自留额"/>
+        <Class IRI="#再保险安排"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#自负责任额"/>
+        <Class IRI="#再保险安排"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#补充再保险费"/>
+        <Class IRI="#再保险安排"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#观察期"/>
+        <Class IRI="#确定保额"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#评估价值"/>
+        <Class IRI="#信息披露"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#评估利率"/>
+        <Class IRI="#准备金"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#责任限额"/>
+        <Class IRI="#确定保额"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#账户价值"/>
+        <Class IRI="#人身保险合同管理"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#资产评估日"/>
+        <Class IRI="#人身保险合同管理"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#赔偿等待期"/>
+        <Class IRI="#赔付请求"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#赔偿限额"/>
+        <Class IRI="#确定保额"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#起赔点"/>
+        <Class IRI="#再保险安排"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#超赔合同责任限额"/>
+        <Class IRI="#再保险安排"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#超赔底级限额"/>
+        <Class IRI="#再保险安排"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#超赔限额"/>
+        <Class IRI="#再保险安排"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#超赔顶级限额"/>
+        <Class IRI="#再保险安排"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#身故保险金"/>
+        <Class IRI="#给付"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#车损责任比例"/>
+        <Class IRI="#财产保险事故"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#车损责任系数"/>
+        <Class IRI="#财产保险事故"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#转分手续费"/>
+        <Class IRI="#再保险合同"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#返回手续费"/>
+        <Class IRI="#再保险合同"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#追偿费用"/>
+        <Class IRI="#代位追偿"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#退保费用"/>
+        <Class IRI="#合同管理"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#退保金"/>
+        <Class IRI="#合同管理"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#递增分保手续费"/>
+        <Class IRI="#再保险安排"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#重置价值"/>
+        <Class IRI="#确定保额"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#重置价值"/>
+        <Class IRI="#财产保险"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#防灾费"/>
+        <Class IRI="#救助"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#附加手续费"/>
+        <Class IRI="#再保险合同"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#预付分保手续费"/>
+        <Class IRI="#再保险安排"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#预付未决赔款"/>
+        <Class IRI="#赔偿和给付"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#预付赔款"/>
+        <Class IRI="#赔偿和给付"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#风险保险费"/>
+        <Class IRI="#人身保险合同管理"/>
+    </DataPropertyDomain>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
